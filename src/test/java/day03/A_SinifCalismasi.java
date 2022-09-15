@@ -21,7 +21,7 @@ public class A_SinifCalismasi {
         //Sign in butonuna basin
         driver.findElement(By.id("sign-in")).click();
 
-        // 2. email textbox, passwordf textbox and sign in buton elementlerini locate ediniz
+        // 2. email textbox, password textbox and sign in buton elementlerini locate ediniz
         WebElement emailTextBox=driver.findElement(By.id("session_email"));
         WebElement password=driver.findElement(By.id("session_password"));
         WebElement signin=driver.findElement(By.name("commit"));
